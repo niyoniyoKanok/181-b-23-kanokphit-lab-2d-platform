@@ -1,5 +1,4 @@
 using UnityEngine;
-
 public class Crocodile : Enemy, IShootable
 {
     [field: SerializeField] public GameObject Bullet { get; set; }

@@ -12,7 +12,7 @@ public class Player : Character, IShootable
     {
         base.Initialize(100);
         ReloadTime = 1.0f;
-        WaitTime = 0.0f;
+        WaitTime = 100.0f;
     }
 
     public void OnHitWith(Enemy enemy)
@@ -48,7 +48,7 @@ public class Player : Character, IShootable
             {
                 banana.InitWeapon(20, this);
             }
-                WaitTime = 0.0f;
+            WaitTime = 0.0f;
         }
 
     }
